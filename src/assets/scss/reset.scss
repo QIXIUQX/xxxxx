@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    // &::-webkit-scrollbar {
+    //     width: 4px;
+    //     height: 4px;
+    //     background: #fff;
+    // }
+
+    // &::-webkit-scrollbar-thumb {
+    //     border-radius: 5px;
+    //     box-shadow: inset 0 0 5px #eeeeee;
+    //     background: rgba(0, 0, 0, 0.2);
+    // }
+
+    // &::-webkit-scrollbar-track {
+    //     box-shadow: inset 0 0 5px #eeeeee;
+    //     border-radius: 0;
+    // }
+}
+
+ol ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}

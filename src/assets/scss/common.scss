@@ -1,0 +1,68 @@
+// 公共样式
+.cate-item {
+    display: block;
+    margin: 5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #66b1ff;
+    cursor: pointer;
+}
+
+// 所有tag 的公共样式  start 
+.tag-common {
+    margin: 5px 5px 0 0;
+}
+
+.common-btn {
+    margin: 10px 20px;
+}
+
+.common-btn-right {
+    margin-right: 20px;
+}
+
+.common-btn-top {
+    margin-top: 10px;
+}
+
+.common-btn-left {
+    margin-left: 10px;
+}
+
+// 所有tag 的公共样式  end 
+.item-category {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+    .cate-item {
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid #66b1ff;
+        cursor: pointer;
+    }
+}
+
+// 公共input 样式 Start
+.common-input {
+    margin: 10px;
+}
+
+.common-input-top {
+    margin-top: 10px;
+}
+
+.common-input-right {
+    margin-right: 15px;
+}
+
+.common-input-left {
+    margin-left: 10px;
+}
+
+.common-input-bottom {
+    margin-bottom: 12px;
+}
+
+// 公共input 样式 End
